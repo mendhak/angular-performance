@@ -28,7 +28,7 @@ perf.directive('performance', [function () {
                     }
 
                     var i = new Image();
-                    i.src = '/app/img/beacon.png?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.performance;
+                    i.src = attrs.performanceBeacon + '?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.performance;
                 }
             });
 

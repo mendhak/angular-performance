@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/scripts/web-server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/img/beacon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/angular-performance.js" afterPath="$PROJECT_DIR$/src/angular-performance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/js/app.js" afterPath="$PROJECT_DIR$/sample/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/js/controllers.js" afterPath="$PROJECT_DIR$/sample/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/index.html" afterPath="$PROJECT_DIR$/sample/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-beacon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378845603654" ignored="false" />
+    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847811011" ignored="false" />
     <file path="/a.dummy" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378767210605" ignored="false" />
-    <file path="/index.html" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847786556" ignored="false" />
-    <file path="/angular-performance.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847225769" ignored="false" />
+    <file path="/index.html" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378848150804" ignored="false" />
+    <file path="/angular-performance.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378848124287" ignored="false" />
     <file path="/controllers.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847513773" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.360262">
+            <state line="9" column="59" selection-start="190" selection-end="190" vertical-scroll-proportion="0.19650654">
               <folding />
             </state>
           </provider>
@@ -65,16 +63,7 @@
       <file leaf-file-name="angular-performance.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/angular-performance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web-server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/scripts/web-server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="30" column="54" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,8 +111,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sample/scripts/web-server.js" />
         <option value="$PROJECT_DIR$/sample/js/app.js" />
-        <option value="$PROJECT_DIR$/src/angular-performance.js" />
         <option value="$PROJECT_DIR$/sample/js/controllers.js" />
+        <option value="$PROJECT_DIR$/src/angular-performance.js" />
         <option value="$PROJECT_DIR$/sample/index.html" />
       </list>
     </option>
@@ -221,25 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-performance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-performance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,6 +229,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -311,7 +285,11 @@
       <created>1378845608957</created>
       <updated>1378845608957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic sample working under NodeJS web-server">
+      <created>1378847813518</created>
+      <updated>1378847813518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -379,7 +357,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main directive logic to listen and register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic sample working under NodeJS web-server" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -394,6 +372,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Main directive logic to listen and register" />
+    <MESSAGE value="Basic sample working under NodeJS web-server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/scripts/web-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="44" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
@@ -482,9 +454,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/angular-performance.js">
+    <entry file="file://$PROJECT_DIR$/sample/scripts/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -496,9 +468,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/angular-performance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="54" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.360262">
+        <state line="9" column="59" selection-start="190" selection-end="190" vertical-scroll-proportion="0.19650654">
           <folding />
         </state>
       </provider>
