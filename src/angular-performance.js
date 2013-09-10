@@ -1,31 +1,6 @@
 var perf = angular.module('performance', []);
 
 
-/**
- * Registers itself and watches a scope variable for changes to indicate that it is done
- *
- */
-perf.directive('performanceLoaded', [function () {
-
-    return {
-        restrict: 'A',
-        link: function (scope, element, attrs) {
-
-            scope.$emit('PERF_REGISTER', scope.$id);
-
-            var unwatchLoaded = scope.$watch(attrs.performanceLoaded, function (newValue, oldValue) {
-                if (newValue) {
-                    scope.$emit('PERF_DONE', scope.$id);
-                    //Unregisters the $watch
-                    unwatchLoaded();
-                }
-            });
-        }
-    }
-}]);
-
-
-
 
 /**
  * Listens for performanceLoaded events and sends a message to the beacon
@@ -41,7 +16,6 @@ perf.directive('performance', [function () {
             var divs = [];
 
             scope.$on('PERF_DONE', function (event, args) {
-
                 var index = divs.indexOf(args);
                 if (index >= 0) divs.splice(index, 1);
 
@@ -54,7 +28,7 @@ perf.directive('performance', [function () {
                     }
 
                     var i = new Image();
-                    i.src = '/app/img/beacon.png?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.fgPERF;
+                    i.src = '/app/img/beacon.png?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.performance;
                 }
             });
 
@@ -64,3 +38,34 @@ perf.directive('performance', [function () {
         }
     };
 }]);
+
+
+/**
+ * Registers itself and watches a scope variable for changes to indicate that it is done
+ *
+ */
+perf.directive('performanceLoaded', ['$timeout', function ($timeout) {
+
+    return {
+        restrict: 'A',
+        link: function (scope, element, attrs) {
+
+
+            $timeout(function () {
+                scope.$emit('PERF_REGISTER', scope.$id);
+            }, 0);
+
+
+            var unwatchLoaded = scope.$watch(attrs.performanceLoaded, function (newValue, oldValue) {
+                if (newValue) {
+                    scope.$emit('PERF_DONE', scope.$id);
+                    //Unregisters the $watch
+                    unwatchLoaded();
+                }
+            });
+        }
+    }
+}]);
+
+
+
