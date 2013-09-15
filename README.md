@@ -1,8 +1,3 @@
-Measuring Perceived Page Performance in AngularJS applications
-===================
-
-AngularJS directives for measuring and reporting perceived page performance.
-
 
 ##Page Load vs Perceived Page Load
 
