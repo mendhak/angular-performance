@@ -39,7 +39,6 @@ perf.directive('performance', [function () {
     };
 }]);
 
-
 /**
  * Registers itself and watches a scope variable for changes to indicate that it is done
  *
