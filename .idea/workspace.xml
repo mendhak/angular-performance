@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/demo-button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-beacon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379258254384" ignored="false" />
+    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379258374054" ignored="false" />
     <file path="/a.dummy" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378767210605" ignored="false" />
     <file path="/index.html" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379257761713" ignored="false" />
     <file path="/angular-performance.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378848124287" ignored="false" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="25" selection-start="10001" selection-end="10001" vertical-scroll-proportion="-9.375">
+            <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="56" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.67634857">
+            <state line="158" column="38" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.78215766">
               <folding />
             </state>
           </provider>
@@ -296,7 +296,11 @@
       <created>1379258260842</created>
       <updated>1379258260842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Demo button image">
+      <created>1379258375223</created>
+      <updated>1379258375223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +368,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style tweak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo button image" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -386,6 +390,7 @@
     <MESSAGE value="Demo and license" />
     <MESSAGE value="Using minified version" />
     <MESSAGE value="Style tweak" />
+    <MESSAGE value="Demo button image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -495,14 +500,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="25" selection-start="10001" selection-end="10001" vertical-scroll-proportion="-9.375">
+        <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="56" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.67634857">
+        <state line="158" column="38" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.78215766">
           <folding />
         </state>
       </provider>

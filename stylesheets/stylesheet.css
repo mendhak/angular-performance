@@ -157,16 +157,14 @@ aside a.button {
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 28px;
 }
 
 a.demo {
-    width: 134px;
     height: 58px;
     line-height: 1.2;
-    font-size: 23px;
+    font-size: 28px;
     color: #fff;
-    padding-left: 68px;
     padding-top: 22px;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     width: 138px;
@@ -174,7 +172,6 @@ a.demo {
     display: block;
     background: transparent url(../images/demo-button.png) 0 0 no-repeat;
     margin-bottom: 20px;
-    font-size: 21px;
     font-weight: bolder;
 }
 
