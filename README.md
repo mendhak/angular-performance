@@ -49,8 +49,28 @@ Because this is a client side operation, a few components are required:
 4. A log parsing application which can retrospectively process the web server logs, grab the information, process the IP address of the user and store it your aggregating service (eg. graphite).
 
 
+![components](http://farm8.staticflickr.com/7417/9758863125_b186c911d3_o.png)
+
 
 ##How this directive works
+
+The listener shown above is the `performance` directive.  Place this attribute at the beginning of your angular view.  
+
+    <div performance="PageName" performance-beacon="/sample/img/beacon.png">
+    
+The `performance-beacon` indicates where the HTTP request should go when perceived page load is complete.
+
+The watchers above are the `performance-loaded` directives.  Place these attributes anywhere within a controller and set its value to an object on the `$scope`.  For example, you can do this
+
+    performance-loaded="ProductsFromAPI"
+    
+This directive will watch the `$scope.ProductsFromAPI` object and mark loading as done when this object contains a value.  You can control this further by using an object just for this directive:
+
+    performance-loaded="Loaded"
+    
+And in your controller, only set `$scope.Loaded = true` when you feel that all the processing is complete.  This is useful when your controller makes multiple API calls and you need to wait for all of them to complete before indicating that loading is complete.
+
+ 
 
 Place `performance-loaded` directives anywhere within your view and set its value to a variable in the controller's `$scope`. This essentially watches the variable for changes and informs the `performance` directive when it is ready.
 
