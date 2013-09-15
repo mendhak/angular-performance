@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" name="Default" comment="Using minified version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/angular-performance.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/index.html" afterPath="$PROJECT_DIR$/sample/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" name="Default" comment="Using minified version" />
     <ignored path="angular-beacon.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379254978852" ignored="false" />
@@ -15,6 +10,7 @@
     <file path="/angular-performance.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378848124287" ignored="false" />
     <file path="/controllers.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847513773" ignored="false" />
     <file path="/README.md" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379254643874" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379255210596" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="532" selection-end="532" vertical-scroll-proportion="0.6877729">
+            <state line="23" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="-8.458333">
               <folding />
             </state>
           </provider>
@@ -88,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="-22.32">
+            <state line="117" column="0" selection-start="6771" selection-end="6771" vertical-scroll-proportion="0.7972973">
               <folding />
             </state>
           </provider>
@@ -515,16 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="-22.32">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/angular-performance.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0">
@@ -541,9 +527,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="532" selection-end="532" vertical-scroll-proportion="0.6877729">
+        <state line="23" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="-8.458333">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="6771" selection-end="6771" vertical-scroll-proportion="0.7972973">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
