@@ -14,10 +14,12 @@
 
 
     <div data-ng-controller="Controller1" data-performance-loaded="Loaded">
+        <p>DIV 1 contents:</p>
         {{ Loaded }}
     </div>
 
     <div data-ng-controller="Controller2" data-performance-loaded="Products">
+        <p>DIV 2 contents:</p>
         <div data-ng-repeat="n in Products.Names">{{ n }}</div>
     </div>
 
@@ -27,6 +29,6 @@
   <script src="lib/angular/angular.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers.js"></script>
-  <script src="../src/angular-performance.js"></script>
+  <script src="../build/angular-performance.min.js"></script>
 </body>
 </html>
