@@ -257,7 +257,7 @@ form {
 }
 
 #main-content h2 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -495,3 +495,10 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+em {
+    font-style: italic;
+}
+
+strong { font-weight: bolder; }

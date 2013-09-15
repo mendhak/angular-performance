@@ -7,13 +7,13 @@
     </list>
     <ignored path="angular-beacon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379258374054" ignored="false" />
+    <file path="/Dummy.txt" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379259439387" ignored="false" />
     <file path="/a.dummy" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378767210605" ignored="false" />
     <file path="/index.html" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379257761713" ignored="false" />
     <file path="/angular-performance.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378848124287" ignored="false" />
     <file path="/controllers.js" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1378847513773" ignored="false" />
     <file path="/README.md" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379254643874" ignored="false" />
-    <file path="/stylesheet.css" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379257800514" ignored="false" />
+    <file path="/stylesheet.css" changelist="78d01465-d6c1-4bc6-b2fe-30e78f5d0551" time="1379259489899" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-2.5">
+            <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="38" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.78215766">
+            <state line="259" column="15" selection-start="4719" selection-end="4719" vertical-scroll-proportion="0.7908497">
               <folding />
             </state>
           </provider>
@@ -197,12 +197,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-intro.js" />
-    <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -226,7 +226,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -307,11 +307,10 @@
     <frame x="-1" y="-4" width="1442" height="905" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.49964714" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.49964714" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15808046" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15808046" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.50035286" order="7" side_tool="true" content_ui="tabs" />
@@ -321,6 +320,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -500,14 +500,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-2.5">
+        <state line="129" column="150" selection-start="8491" selection-end="8491" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="38" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.78215766">
+        <state line="259" column="15" selection-start="4719" selection-end="4719" vertical-scroll-proportion="0.7908497">
           <folding />
         </state>
       </provider>
