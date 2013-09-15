@@ -71,8 +71,39 @@ This directive will watch the `$scope.ProductsFromAPI` object and mark loading a
 And in your controller, only set `$scope.Loaded = true` when you feel that all the processing is complete.  This is useful when your controller makes multiple API calls and you need to wait for all of them to complete before indicating that loading is complete.
 
  
+Ensure that the `performance loaded` directives sit within the scope of the `performance` directive.  In other words, the `performance-loaded` directives should be in the same controller as `performance` or in a 'sub-controller' inside it.  
 
-Place `performance-loaded` directives anywhere within your view and set its value to a variable in the controller's `$scope`. This essentially watches the variable for changes and informs the `performance` directive when it is ready.
+Correct:
+
+    <div ng-controller="MyController" performance="PageName">
+        <div performance-loaded="ProductsFromAPI">
+    </div>
+    
+Correct:
+
+    <div ng-controller="MyController" performance="PageName">
+        <div ng-controller="SomeOtherController" performance-loaded="ProductsFromAPI">
+    </div>
+
+Incorrect:
+
+    <div ng-controller="MyController" performance="PageName">
+        ....
+    </div>
+    <div performance-loaded="ProductsFromAPI">
+
+Incorrect:
+
+    <div ng-controller="MyController" performance="PageName">
+        ....
+    </div>
+    <div ng-controller="SomeOtherController" performance-loaded="ProductsFromAPI">
+
+
+
+See [this page](https://github.com/mendhak/angular-performance/blob/master/sample/index.html) for an example of usage. 
+
+## Example
 
 
 
