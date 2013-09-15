@@ -20,7 +20,7 @@
     <header>
       <div class="inner">
         <h1>AngularJS - Perceived Performance</h1>
-        <h2>AngularJS directive for measuring and reporting perceived page performance</h2>
+        <h2>Directives for measuring and reporting perceived page performance</h2>
         <a href="https://github.com/mendhak/angular-performance" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
@@ -28,12 +28,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1>
-<a name="measuring-perceived-page-performance-in-angularjs-applications" class="anchor" href="#measuring-perceived-page-performance-in-angularjs-applications"><span class="octicon octicon-link"></span></a>Measuring Perceived Page Performance in AngularJS applications</h1>
-
-<p>AngularJS directives for measuring and reporting perceived page performance.</p>
-
-<h2>
+          <h2>
 <a name="page-load-vs-perceived-page-load" class="anchor" href="#page-load-vs-perceived-page-load"><span class="octicon octicon-link"></span></a>Page Load vs Perceived Page Load</h2>
 
 <p>In a traditional page, measuring the page performance is quite easy; a request is made, the server responds with some HTML and the browser renders it.  Done.</p>
@@ -76,9 +71,9 @@
 <pre><code>/beacon.png?content=3913&amp;name=ArticleView&amp;initial=1011
 </code></pre>
 
-<p>Which means it took the ArticleView page 1011 milliseconds for its initial load and 3913 milliseconds to load the actual content (the perceived load time).</p>
+<p>The above means it took the ArticleView page 1011 milliseconds for its <em>initial</em> load and 3913 milliseconds to load the actual <em>content</em> (the perceived load time).</p>
 </li>
-<li><p>A log parsing application which can retrospectively process the web server logs, grab the information, process the IP address of the user and store it your aggregating service (eg. graphite).</p></li>
+<li><p>The beacon requests will be stored in your web server logs, and a log parsing application (eg. logster) can retrospectively process it, grab the information and store it your aggregating service (eg. graphite).</p></li>
 </ol><p><img src="http://farm8.staticflickr.com/7417/9758863125_b186c911d3_o.png" alt="components"></p>
 
 <h2>
@@ -105,21 +100,21 @@
 
 <p>Ensure that the <code>performance loaded</code> directives sit within the scope of the <code>performance</code> directive.  In other words, the <code>performance-loaded</code> directives should be in the same controller as <code>performance</code> or in a 'sub-controller' inside it.  </p>
 
-<p>Correct:</p>
+<p><strong>Correct:</strong></p>
 
 <pre><code>&lt;div ng-controller="MyController" performance="PageName"&gt;
     &lt;div performance-loaded="ProductsFromAPI"&gt;
 &lt;/div&gt;
 </code></pre>
 
-<p>Correct:</p>
+<p><strong>Correct:</strong></p>
 
 <pre><code>&lt;div ng-controller="MyController" performance="PageName"&gt;
     &lt;div ng-controller="SomeOtherController" performance-loaded="ProductsFromAPI"&gt;
 &lt;/div&gt;
 </code></pre>
 
-<p>Incorrect:</p>
+<p><strong>Incorrect:</strong></p>
 
 <pre><code>&lt;div ng-controller="MyController" performance="PageName"&gt;
     ....
@@ -127,7 +122,7 @@
 &lt;div performance-loaded="ProductsFromAPI"&gt;
 </code></pre>
 
-<p>Incorrect:</p>
+<p><strong>Incorrect:</strong></p>
 
 <pre><code>&lt;div ng-controller="MyController" performance="PageName"&gt;
     ....
@@ -143,6 +138,8 @@
 <p><img src="http://farm8.staticflickr.com/7432/9759419411_4bddff429b_o.png" alt="network tab"></p>
 
 <p>Look at <a href="https://github.com/mendhak/angular-performance/blob/master/sample/index.html">index.html</a> and <a href="https://github.com/mendhak/angular-performance/blob/master/sample/js/controllers.js">controllers.js</a> to see how it's done.</p>
+
+<p>You can use <a href="https://raw.github.com/mendhak/angular-performance/master/src/angular-performance.js">angular-performance.js</a> or its <a href="https://raw.github.com/mendhak/angular-performance/master/build/angular-performance.min.js">minified version</a>.</p>
 
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
