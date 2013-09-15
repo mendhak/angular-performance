@@ -52,7 +52,7 @@ Because this is a client side operation, a few components are required:
 ![components](http://farm8.staticflickr.com/7417/9758863125_b186c911d3_o.png)
 
 
-##How this directive works
+##Using the performance directives
 
 The listener shown above is the `performance` directive.  Place this attribute at the beginning of your angular view.  
 
@@ -60,7 +60,7 @@ The listener shown above is the `performance` directive.  Place this attribute a
     
 The `performance-beacon` indicates where the HTTP request should go when perceived page load is complete.
 
-The watchers above are the `performance-loaded` directives.  Place these attributes anywhere within a controller and set its value to an object on the `$scope`.  For example, you can do this
+The watchers above are the `performance-loaded` directives.  Place these attributes anywhere within the view and set its value to an object on the `$scope`.  For example, you can do this
 
     performance-loaded="ProductsFromAPI"
     
@@ -105,5 +105,8 @@ See [this page](https://github.com/mendhak/angular-performance/blob/master/sampl
 
 ## Example
 
+## Demo
+
+## License
 
 
