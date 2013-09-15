@@ -1,8 +1,3 @@
-Measuring Perceived Page Performance in AngularJS applications
-===================
-
-AngularJS directives for measuring and reporting perceived page performance.
-
 
 ##Page Load vs Perceived Page Load
 
@@ -44,9 +39,9 @@ Because this is a client side operation, a few components are required:
 
         /beacon.png?content=3913&name=ArticleView&initial=1011
     
-    Which means it took the ArticleView page 1011 milliseconds for its initial load and 3913 milliseconds to load the actual content (the perceived load time).
+    The above means it took the ArticleView page 1011 milliseconds for its *initial* load and 3913 milliseconds to load the actual *content* (the perceived load time).
 
-4. A log parsing application which can retrospectively process the web server logs, grab the information, process the IP address of the user and store it your aggregating service (eg. graphite).
+4. The beacon requests will be stored in your web server logs, and a log parsing application (eg. logster) can retrospectively process it, grab the information and store it your aggregating service (eg. graphite).
 
 
 ![components](http://farm8.staticflickr.com/7417/9758863125_b186c911d3_o.png)
@@ -73,33 +68,31 @@ And in your controller, only set `$scope.Loaded = true` when you feel that all t
  
 Ensure that the `performance loaded` directives sit within the scope of the `performance` directive.  In other words, the `performance-loaded` directives should be in the same controller as `performance` or in a 'sub-controller' inside it.  
 
-Correct:
+**Correct:**
 
     <div ng-controller="MyController" performance="PageName">
         <div performance-loaded="ProductsFromAPI">
     </div>
     
-Correct:
+**Correct:**
 
     <div ng-controller="MyController" performance="PageName">
         <div ng-controller="SomeOtherController" performance-loaded="ProductsFromAPI">
     </div>
 
-Incorrect:
+**Incorrect:**
 
     <div ng-controller="MyController" performance="PageName">
         ....
     </div>
     <div performance-loaded="ProductsFromAPI">
 
-Incorrect:
+**Incorrect:**
 
     <div ng-controller="MyController" performance="PageName">
         ....
     </div>
     <div ng-controller="SomeOtherController" performance-loaded="ProductsFromAPI">
-
-
 
 
 
@@ -110,6 +103,8 @@ See [this page](http://code.mendhak.com/angular-performance/sample/) for a demo.
 ![network tab](http://farm8.staticflickr.com/7432/9759419411_4bddff429b_o.png)
 
 Look at [index.html](https://github.com/mendhak/angular-performance/blob/master/sample/index.html) and [controllers.js](https://github.com/mendhak/angular-performance/blob/master/sample/js/controllers.js) to see how it's done.
+
+You can use [angular-performance.js](https://raw.github.com/mendhak/angular-performance/master/src/angular-performance.js) or its [minified version](https://raw.github.com/mendhak/angular-performance/master/build/angular-performance.min.js).
 
 
 ## License

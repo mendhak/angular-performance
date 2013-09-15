@@ -4,24 +4,47 @@
   <meta charset="utf-8">
   <title>My AngularJS App</title>
 
+    <style type="text/css">
+        body { font-family: Arial; font-size: 18px;}
+
+        div.box { border: 1px solid black; margin:5px; border-radius:11px; padding: 3px; float:left;}
+    </style>
+
 </head>
 <body>
 
-<h3>Open developer tools (F12) and wait for the beacon request in your network tab</h3>
+<span style="font-size:11px;">&larr; <a href="http://code.mendhak.com/angular-performance/">return</a></span>
+<h3>Open developer tools (F12) and wait for the beacon.png request in your network tab</h3>
+<h4>These DIVs are faking API calls and will complete in 1-10 seconds</h4>
+
 
 <div data-performance="PageName" data-performance-beacon="img/beacon.png">
 
 
+    <div style="float:left;">
 
-    <div data-ng-controller="Controller1" data-performance-loaded="Loaded">
-        <p>DIV 1 contents:</p>
-        {{ Loaded }}
+        <div class="box" data-ng-controller="Controller1" data-performance-loaded="Loaded">
+            <p>DIV 1 contents:</p>
+            <div ng-show="Loaded">{{ Loaded }}</div>
+            <div ng-hide="Loaded"><img src="img/loading.gif" /></div>
+        </div>
+
+        <div  class="box" data-ng-controller="Controller2" data-performance-loaded="Products">
+            <p>DIV 2 contents:</p>
+            <div ng-hide="Products"><img src="img/loading.gif" /></div>
+            <div ng-show="Products" data-ng-repeat="n in Products.Names">{{ n }}</div>
+        </div>
+
+        <div  class="box" data-ng-controller="Controller3" data-performance-loaded="Status.Complete">
+            <p>DIV 3 contents:</p>
+            <div ng-hide="Status.Complete"><img src="img/loading.gif" /></div>
+            <div ng-show="Status.Complete" >Three API calls complete</div>
+        </div>
     </div>
 
-    <div data-ng-controller="Controller2" data-performance-loaded="Products">
-        <p>DIV 2 contents:</p>
-        <div data-ng-repeat="n in Products.Names">{{ n }}</div>
-    </div>
+
+
+
 
 </div>
 
