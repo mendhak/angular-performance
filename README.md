@@ -1,4 +1,4 @@
-angular-performance
+Measuring Perceived Page Performance in AngularJS applications
 ===================
 
 AngularJS directives for measuring and reporting perceived page performance.
@@ -29,12 +29,24 @@ Similarly, on a news website, the title and body of the news article matter the 
 
 ![bbc](http://farm6.staticflickr.com/5329/9756789024_f61b0d57f4_o.png)
 
-The images above are just examples with arbitrarily assigned regions of importance.  The point is, the definition of page done has to be defined on a per-case basis.  The most common definition is usually something like "The page is done when this particular div is filled with content" - indicating that the page loaded, an API call was made and the contents were rendered. On a heavier page, this would be when three or four divs have all been filled with content.  You could even choose to ignore certain parts of the page as being less important.
+The images above are just examples with arbitrarily assigned regions of importance.  The point here is, the definition of page done has to be defined on a per-case basis.  The most common definition is usually something like *"The page is done when this particular div is filled with content"* - indicating that the page loaded, an API call was made and the contents were rendered. On a heavier page, this would be when three or four divs have all been filled with content.  You could even choose to ignore certain parts of the page as being less important.
 
 
 ##So how do we measure perceived page performance?
 
-The *perceived* page load is when all of the important dynamic parts of the page have been filled.  This requires the developers to agree upon what the most important parts are, and to programmatically indicate when the specific portions are done.  It's an inexact science and the results will vary from user to user due to machine specs, network latency and other environmental factors, but you get a good idea of the timings involved and what users are actually experiencing.
+The *perceived* page load is when all of the important dynamic parts of the page have been filled.  This requires the developers to agree upon what the most important parts are, and to programmatically indicate when the specific portions are done.  It's an inexact science and the results will vary from user to user due to machine specs, network latency and other environmental factors, but you get a good idea of the timings involved and what users are actually experiencing.  
+
+Because this is a client side operation, a few components are required:
+
+1. An indicator placed on various parts of the page to watch that specific portion of the page (eg. article body, top articles, but not header or featured stories).
+2. A listener which waits to be informed by all of the indicators; internally the listener can set up various timers as necessary.
+3. A beacon which the listener can send the aggregate information to once it is satisfied that all of the indicators have reported to it.  This beacon usually takes the form of an empty image, with timings passed in the querystring.
+
+        /beacon.png?content=3913&name=ArticleView&initial=1011
+    
+    Which means it took the ArticleView page 1011 milliseconds for its initial load and 3913 milliseconds to load the actual content (the perceived load time).
+
+4. A log parsing application which can retrospectively process the web server logs, grab the information, process the IP address of the user and store it your aggregating service (eg. graphite).
 
 
 
