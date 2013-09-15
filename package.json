@@ -1,0 +1,31 @@
+{
+    "author": "Mendhak",
+    "name": "angular-performance",
+    "description": "AngularJS directive to measure perceived page load time",
+    "version": "0.1.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mendhak/angular-performance.git"
+    },
+    "main": "angular-performance",
+
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    },
+    "optionalDependencies": {},
+    "engines": {
+
+    },
+    "keywords": [
+        "angular",
+        "angularjs",
+        "perfmon",
+        "performance",
+        "beacon",
+        "perceived",
+        "load"
+    ]
+}
