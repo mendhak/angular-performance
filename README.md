@@ -101,12 +101,17 @@ Incorrect:
 
 
 
-See [this page](https://github.com/mendhak/angular-performance/blob/master/sample/index.html) for an example of usage. 
 
-## Example
 
-## Demo
+## Demo/Code
+
+See [this page](http://code.mendhak.com/angular-performance/sample/) for a demo.  Be sure to open your networks tab or Fiddler to see the beacon request.
+
+![network tab](http://farm8.staticflickr.com/7432/9759419411_4bddff429b_o.png)
+
+Look at [index.html](https://github.com/mendhak/angular-performance/blob/master/sample/index.html) and [controllers.js](https://github.com/mendhak/angular-performance/blob/master/sample/js/controllers.js) to see how it's done.
+
 
 ## License
 
-
+[MIT License](https://github.com/mendhak/angular-performance/blob/master/LICENSE)
