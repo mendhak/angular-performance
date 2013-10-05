@@ -27,6 +27,9 @@ perf.directive('performance', [function () {
                         initialLoad = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
                     }
 
+                    initialLoad = (!initialLoad || initialLoad<0) ? 0:initialLoad;
+                    finishTime = (!finishTime || finishTime<0) ? 0:finishTime;
+
                     var i = new Image();
                     i.src = attrs.performanceBeacon + '?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.performance;
                 }
