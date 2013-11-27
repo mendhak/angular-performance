@@ -107,6 +107,15 @@ Look at [index.html](https://github.com/mendhak/angular-performance/blob/master/
 You can use [angular-performance.js](https://raw.github.com/mendhak/angular-performance/master/src/angular-performance.js) or its [minified version](https://raw.github.com/mendhak/angular-performance/master/build/angular-performance.min.js).
 
 
+## Other methods
+Understandably, this may not always be the best approach for you. Projects differ in structure as well as the benefit of effort. You may find that simply using a stopwatch and visually sighting the page is a good enough approach. It sounds crude and unscientific, but can still be considered a legitimate indicator of what users are experiencing. The best approach here is to spin up a few cloud instances in different geographies and navigate to the site several times, taking the average. It's manual and it works.
+
+Another possible avenue to explore is the upcoming [User Timing Marks](http://www.w3.org/TR/user-timing/) specified in the W3C draft. This works by having your code emit marks
+
+    performance.mark("Loaded product detail");
+
+And having a listener such as WebPageTest record them. This allows for automation and indication as well as recording of important points of the page's lifecycle.
+
 ## License
 
 [MIT License](https://github.com/mendhak/angular-performance/blob/master/LICENSE)
