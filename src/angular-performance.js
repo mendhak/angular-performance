@@ -24,8 +24,11 @@ perf.directive('performance', [function () {
                     var finishTime = (new Date).getTime() - startTime;
                     var initialLoad = 0;
                     if (window.performance) {
-                        initialLoad = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
+                        initialLoad = window.performance.timing.domComplete - window.performance.timing.fetchStart;
                     }
+
+                    initialLoad = (!initialLoad || initialLoad<0) ? 0:initialLoad;
+                    finishTime = (!finishTime || finishTime<0) ? 0:finishTime;
 
                     var i = new Image();
                     i.src = attrs.performanceBeacon + '?content=' + finishTime + '&initial=' + initialLoad + '&name=' + attrs.performance;
