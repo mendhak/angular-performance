@@ -21,10 +21,9 @@ perf.directive('performance', [function () {
 
                 //Call beacon when all emits have been received
                 if (index >= 0 && divs.length == 0) {
-                    var finishTime = 0;
+                    var finishTime = (new Date).getTime() - startTime;
                     var initialLoad = 0;
                     if (window.performance) {
-                        finishTime = (new Date).getTime() - window.performance.timing.domComplete;
                         initialLoad = window.performance.timing.domComplete - window.performance.timing.fetchStart;
                     }
 
